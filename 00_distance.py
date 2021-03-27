@@ -23,7 +23,7 @@ Moscow_Paris_distance = ((m[0] - p[0]) ** 2 + (m[1] - p[1]) ** 2) ** .5
 London_Moscow_distance = ((m[0] - l[0]) ** 2 + (m[1] - l[1]) ** 2) ** .5
 London_Paris_distance = ((l[0] - p[0]) ** 2 + (l[1] - p[1]) ** 2) ** .5
 Paris_Moscow_distance = ((m[0] - p[0]) ** 2 + (m[1] - p[1]) ** 2) ** .5
-Paris_London_distance = ((l[0] - p[0]) ** 2 + (l[1] - p[1]) ** 2) ** .5
+Paris_London_distance = ((l[0] - p[0]) ** 2 + (l[1] - p[1]) ** 2) ** 0.5
 
 distances ['Moscow'] = {}
 distances ['Moscow']['London'] = Moscow_London_distance
